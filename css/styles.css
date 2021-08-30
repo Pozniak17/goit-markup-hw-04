@@ -319,6 +319,8 @@ section-title - універсальний клас для h2 */
   fill: #ffffff;
 }
 
+/* section-title */
+
 /* Футер */
 .footer-logo {
   color: var(--primary-bg-color);
