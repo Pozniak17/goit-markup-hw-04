@@ -610,6 +610,10 @@ section-title - універсальний клас для h2 */
   border-radius: 50%;
 }
 
+.second-footer-link:focus {
+  background-color: var(--accent);
+}
+
 .second-footer-item:not(:last-child) {
   margin-right: 10px;
 }
