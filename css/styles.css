@@ -137,7 +137,7 @@ img {
 }
 
 .contact-link {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -147,6 +147,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  align-items: center;
 }
 
 .contact-link:hover,
