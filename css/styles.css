@@ -154,6 +154,11 @@ img {
   color: var(--accent);
 }
 
+.contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /* Стилі для index.html */
 /* Hero */
 .hero-title {
@@ -536,7 +541,8 @@ section-title - універсальний клас для h2 */
   /* fill: rgba(175, 177, 184, 1); */
 }
 .clients-item {
-  border: 1px solid rgba(175, 177, 184, 1);
+  width: 170px;
+  height: 92px;
 }
 
 .clients-item:not(:last-child) {
@@ -547,8 +553,18 @@ section-title - універсальний клас для h2 */
   display: block;
   padding: 16px 32px;
   fill: rgba(175, 177, 184, 1);
+  border: 1px solid rgba(175, 177, 184, 1);
 }
 
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
+  fill: var(--accent);
+}
+
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
+  border: 1px solid var(--accent-color);
+}
 /* Кнопки в футері */
 
 .footer-wrapper {
