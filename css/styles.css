@@ -529,6 +529,26 @@ section-title - універсальний клас для h2 */
   background-color: #f5f4fa;
 }
 
+/* Clients */
+
+.clients-list {
+  display: flex;
+  /* fill: rgba(175, 177, 184, 1); */
+}
+.clients-item {
+  border: 1px solid rgba(175, 177, 184, 1);
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-link {
+  display: block;
+  padding: 16px 32px;
+  fill: rgba(175, 177, 184, 1);
+}
+
 /* Кнопки в футері */
 
 .footer-wrapper {
