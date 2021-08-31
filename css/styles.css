@@ -205,7 +205,7 @@ img {
 
 .features-list {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .features-list .item {
@@ -214,6 +214,14 @@ img {
 
 .features-list .item:not(:last-child) {
   margin-right: 30px;
+}
+
+.features-icon-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-bg-color);
 }
 
 .features-title {
@@ -445,9 +453,7 @@ section-title - універсальний клас для h2 */
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  /* margin-top: 20px; */
   margin-bottom: 4px;
-  /* margin-left: 24px; */
 }
 
 .project-text {
@@ -510,7 +516,7 @@ section-title - універсальний клас для h2 */
 
 /* Секція Features картки через before(без ховера) */
 
-.features-list .item::before {
+/* .features-list .item::before {
   display: block;
   content: '';
   height: 120px;
@@ -519,23 +525,7 @@ section-title - універсальний клас для h2 */
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
-}
-
-.icon-satellite::before {
-  background-image: url(../images/features/antenna.svg);
-}
-
-.icon-clock::before {
-  background-image: url(../images/features/clock.svg);
-}
-
-.icon-laptop::before {
-  background-image: url(../images/features/diagram.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../images/features/astronaut.svg);
-}
+} */
 
 .works {
   background-color: #f5f4fa;
