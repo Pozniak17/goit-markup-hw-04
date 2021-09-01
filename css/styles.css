@@ -219,7 +219,7 @@ img {
 .features-icon-wrap {
   display: flex;
   justify-content: center;
-  padding: 25px 100px;
+  padding: 25px 0;
   margin-bottom: 30px;
   background-color: var(--secondary-bg-color);
 }
