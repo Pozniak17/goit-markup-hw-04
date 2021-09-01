@@ -416,6 +416,7 @@ section-title - універсальний клас для h2 */
 }
 
 .project-link {
+  display: block;
   text-decoration: none;
 }
 
